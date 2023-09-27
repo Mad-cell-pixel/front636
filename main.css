@@ -1,0 +1,139 @@
+.container {
+    max-width: 1225px;
+    margin: 0 auto;
+}
+
+.pain {
+   height: 700px;
+   margin: 0;
+   background-image: url(./Rectangle\ 58.png);
+}
+
+
+.box{
+    padding: 15px 30px;
+}
+
+a {
+    font-size: 20px;
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
+li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(0, 110, 255);
+    display: block;
+    transition: 1s;
+}
+
+li:hover::after {
+    content: "";
+    width: 90%;
+
+}
+
+
+.hell {
+ margin: 0 25px;
+}
+
+.hell1 {
+    margin-right: 25px;
+}
+
+.line {
+    width: 1134px;
+    height: 1px;
+    background-color: rgb(221, 221, 221);
+}
+
+.imgg {
+    width: 690px;
+    height: 390px;
+}
+
+.smt {
+    color: rgb(0, 110, 255);
+}
+
+
+.smt1 {
+    width: 260px;
+}
+
+
+.smt2 {
+    width: 390px;
+    margin: 15px 0;
+}
+
+
+.dad {
+    margin-top: 200px;
+}
+
+.lll {
+    color: #6565EC;
+    margin-left: 30px;
+}
+
+
+.blood {
+   width: 410px; 
+}
+
+.guts {
+    width: 300px;
+    height: 390px;
+    border-radius: 60px;
+    border: 1px solid #CCC;
+    background: #F8D7D9;
+}
+
+.bones {
+    width: 300px;
+    height: 390px;
+    border-radius: 60px;
+    border: 1px solid #CCC;
+    background: #D6D7DB;
+}
+
+.murder {
+    width: 300px;
+    height: 390px;
+    border-radius: 60px;
+    border: 1px solid #CCC;
+    background: #DCD2D4;
+}
+
+.night {
+    width: 580px;
+    height: 390px;
+    border-radius: 10px;
+    background: #202a38;
+}
+
+.smt3 {
+    width: 400px;
+}
+
+.smt4 {
+    width: 380px;
+}
+
+.vvv {
+    width: 170px;
+}
+
+.sos {
+    height: 365px;
+    display: flex;
+    align-items: center;
+}
+
